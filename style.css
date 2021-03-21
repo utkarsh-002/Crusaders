@@ -107,8 +107,8 @@ html {
 }
 
 #menu li {
-  padding: 10px 0;
-  font-size: 22px;
+  padding: 5px 0;
+  font-size: 16px;
 }
 
 #menuToggle input:checked ~ ul {
@@ -173,6 +173,16 @@ html {
   font-size: 27px;
   letter-spacing: 8px;
   text-transform: uppercase;
+  animation: mymove 5s;
+}
+
+@keyframes mymove {
+  from {
+    left: -1000px;
+  }
+  to {
+    left: 0px;
+  }
 }
 
 .ptext .border {
@@ -191,4 +201,21 @@ html {
   .pimg3 {
     background-attachment: scroll;
   }
+}
+
+ul a:hover {
+  background: transparent;
+  position: relative;
+  display: inline-block;
+}
+ul li:hover > ul {
+  display: block;
+  position: relative;
+}
+
+ul li ul {
+  display: none;
+  position: absolute;
+  background: transparent;
+  mix-blend-mode: inherit;
 }
