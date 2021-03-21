@@ -124,6 +124,7 @@ html {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  text-shadow: 3px 3px black;
 
   background-attachment: fixed;
 }
