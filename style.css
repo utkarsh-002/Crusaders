@@ -11,7 +11,7 @@ html {
 
 #menuToggle {
   display: block;
-  position: relative;
+  position: fixed;
   top: 50px;
   left: 50px;
 
@@ -117,7 +117,8 @@ html {
 
 .pimg1,
 .pimg2,
-.pimg3 {
+.pimg3,
+.pimg4 {
   position: relative;
   opacity: 0.7;
   background-position: center;
@@ -133,12 +134,17 @@ html {
 }
 
 .pimg2 {
-  background-image: url("#");
+  background-image: url("https://i.unu.edu/media/unu.edu/publication/90158/8477553337_67c076bed2_o.jpg");
   min-height: 400px;
 }
 
 .pimg3 {
   background-image: url("#");
+  min-height: 400px;
+}
+
+.pimg4 {
+  background-image: url("https://franchiseindia.s3.ap-south-1.amazonaws.com/uploads/content/fi/art/5b4701344f323.jpg");
   min-height: 400px;
 }
 
