@@ -6,7 +6,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>P V Sindhu</title>
-    <link rel="stylesheet" href="style1.css">
+    <style>
+        body, html{
+  height:100%;
+  margin:0;
+  font-size:16px;
+  font-family:"Lato", sans-serif;
+  font-weight:400;
+  line-height:1.8em;
+  color:#666;
+}
+
+.pimg1,
+.pimg2 {
+    position: relative;
+    opacity: 0.7;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.pimg1{
+    background-image:url("https://t2.gstatic.com/images?q=tbn:ANd9GcRx2EmjX2DafhWdIRfElyJcwjtBaIg7cCeQzTMza9Fy4tFOJ2op-zZ5WqO_PXKT");
+    min-height:100%;
+}
+.pimg2{
+    background-image:url("https://images.indianexpress.com/2020/01/PVSindhu-AP-fb.jpg");
+    min-height:400px;
+    
+}
+
+
+.section{
+  text-align:center;
+  padding:50px 80px;
+}
+
+.section-light{
+  background-color:#f4f4f4;
+  color:#666;
+}
+
+.section-dark{
+  background-color:#282e34;
+  color:#ddd;
+}
+
+.ptext{
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align:center;
+  color:#000;
+  font-size:27px;
+  letter-spacing:8px;
+  text-transform:uppercase;
+}
+
+.ptext .border{
+  background-color:#111;
+  color:#fff;
+  padding:20px;
+}
+
+.ptext .border.trans{
+  background-color:transparent;
+}
+
+@media(max-width:568px){
+  .pimg1, .pimg2, .pimg3{
+    background-attachment:scroll;
+  }
+}
+
+    </style>
 </head>
 
 <body>
@@ -31,6 +105,13 @@
             first Indian badminton player to reach a final. She won the silver medal after losing out to Spain's Carolina Marin.
 
         </p>
+    <div class="pimg2">
+        <div class="ptext">
+            <span class="border trans">
+                
+            </span>
+        </div>
+    </div>
         <h1>Honors</h1>
         <ul style="list-style-type:none;">
             <li>Honoured with Padma Bhushan Award, the third-highest civilian award in India, in January 2020.</li>
